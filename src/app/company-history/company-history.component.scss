@@ -1,0 +1,39 @@
+.container{
+  margin-top:100px;
+}
+
+.counter-box {
+height:180px;
+padding: 10px;
+text-align: center;
+transition: 0.4s;
+background: rgb(247, 246, 246);
+}
+
+.counter-box:hover {
+  transform: translate(0, -10px);
+  box-shadow: 0 0 50px rgb(183, 183, 249);
+}
+
+.counter-box p {
+margin: 5px 0 0;
+padding: 0;
+color: #909090;
+font-size: 18px;
+font-weight: 300
+}
+
+.counter-box i {
+font-size: 60px;
+margin: 0 0 15px;
+color: #d2d2d2
+}
+
+.counter {
+display: block;
+font-size: 32px;
+font-weight: 600;
+color: #666;
+line-height: 28px
+}
+
