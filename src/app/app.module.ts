@@ -7,6 +7,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { CompanyHistoryComponent } from './company-history/company-history.component';
 import { HomepageSliderComponent } from './homepage-slider/homepage-slider.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     BrowserModule,
     AppRoutingModule,
     NgbModule,
+    FontAwesomeModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
