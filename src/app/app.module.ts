@@ -8,13 +8,15 @@ import { CompanyHistoryComponent } from './company-history/company-history.compo
 import { HomepageSliderComponent } from './homepage-slider/homepage-slider.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { WhoWeAreComponent } from './who-we-are/who-we-are.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     CompanyHistoryComponent,
-    HomepageSliderComponent
+    HomepageSliderComponent,
+    WhoWeAreComponent
   ],
   imports: [
     BrowserModule,
