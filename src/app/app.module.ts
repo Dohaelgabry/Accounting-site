@@ -16,7 +16,7 @@ import { WhoWeAreComponent } from './who-we-are/who-we-are.component';
     NavbarComponent,
     CompanyHistoryComponent,
     HomepageSliderComponent,
-    WhoWeAre,
+    WhoWeAreComponent,
   ],
   imports: [
     BrowserModule,
