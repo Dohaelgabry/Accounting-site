@@ -1,0 +1,29 @@
+.header {
+  margin-top: 150px;
+  background-image:linear-gradient(rgba(22, 37, 66, 0.8), rgba(22, 37, 66, 0.8) ),url('../../assets/pexels-august-de-richelieu-4427430.JPEG') ;
+  height: 50vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+.about-img-box-one {
+  margin-top: 100px;
+  min-height: 600px;
+  position: relative;
+}
+.about-img-two{
+  position: absolute;
+  margin-bottom: 200px;
+  bottom: 0;
+  left: 460px;
+  top: 1px;
+  width: 100%;
+}
+.about-img-three {
+  position: absolute;
+  margin-top: 15px;
+  left: 2px;
+  width: 100%;
+}
+
+
